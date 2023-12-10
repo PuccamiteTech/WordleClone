@@ -1,0 +1,44 @@
+/* The table Layout can be finnicky. */
+
+#wordleTable {
+    background-color: black;
+    border-spacing: 5px;
+}
+
+#wordleTable td {
+    border: 1px solid white;
+    width: 62px;
+    height: 62px;
+}
+
+#wordleTable td.UnusedLetter {
+    background-color: dimgray;
+}
+
+#wordleTable td.MatchingLetter {
+    background-color: green;
+}
+
+#wordleTable td.MisplacedLetter {
+    background-color: darkgoldenrod;
+}
+
+#wordleTable * {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#userInput {
+    background-color: white;
+    color: black;
+    width: 97%;
+    height: 90%;
+}
+
+#enterButton, #resetButton {
+    width: 100%;
+    height: 100%;
+}
